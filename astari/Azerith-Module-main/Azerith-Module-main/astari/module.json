@@ -1,0 +1,103 @@
+{
+
+    "manifest": "https://raw.githubusercontent.com/LightPhantom04/Azerith-Module/main/astari/module.json",
+    "download": "https://github.com/LightPhantom04/Azerith-Module/releases/download/Module/astari.4.zip",
+
+
+      "id": "astari",
+    "title": "Astari",
+    "description": "Compendium content for the Astari campaign setting: characters, items and spells, and NPCs for the D&D 5e system.",
+    "version": "1.0.0",
+    "authors": [
+      {
+        "name": "LightPhantom04"
+      }
+    ],
+    "compatibility": {
+      "minimum": "13",
+      "verified": "14",
+      "maximum": "14"
+    },
+    "relationships": {
+      "systems": [
+        {
+          "id": "dnd5e",
+          "type": "system",
+          "compatibility": {
+            "minimum": "5.3"
+          }
+        }
+      ]
+    },
+    "packs": [
+      {
+        "name": "backgrounds",
+        "label": "Backgrounds",
+        "path": "packs/backgrounds",
+        "type": "Item",
+        "system": "dnd5e",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        }
+      },
+      {
+        "name": "races",
+        "label": "Races",
+        "path": "packs/races",
+        "type": "Item",
+        "system": "dnd5e",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        }
+      },
+      {
+        "name": "items",
+        "label": "Items",
+        "path": "packs/items",
+        "type": "Item",
+        "system": "dnd5e",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        }
+      },
+      {
+        "name": "trade-goods",
+        "label": "Trade Goods",
+        "path": "packs/trade-goods",
+        "type": "Item",
+        "system": "dnd5e",
+        "ownership": {
+          "PLAYER": "OBSERVER",
+          "ASSISTANT": "OWNER"
+        }
+      }
+    ],
+    "packFolders": [
+      {
+        "color": "#6a1b9a",
+        "folders": [
+          {
+            "name": "Characters",
+            "sorting": "a",
+            "packs": [ "backgrounds", "races" ]
+          },
+          {
+            "name": "Items and Spells",
+            "sorting": "a",
+            "packs": [ "items", "trade-goods" ]
+          },
+          {
+            "name": "NPCs",
+            "sorting": "a",
+            "packs": []
+          }
+        ],
+        "name": "Astari",
+        "packs": [],
+        "sorting": "m"
+      }
+    ]
+  }
