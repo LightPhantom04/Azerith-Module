@@ -93,8 +93,8 @@
           "packs": []
         }
       ]
+    "manifest": "https://raw.githubusercontent.com/LightPhantom04/Azerith-Module/main/astari/module.json",
+"download": "https://github.com/LightPhantom04/Azerith-Module/releases/download/Module/astari.3.zip"
     }
   ]
 }
-"manifest": "https://raw.githubusercontent.com/LightPhantom04/Azerith-Module/main/astari/module.json",
-"download": "https://github.com/LightPhantom04/Azerith-Module/releases/download/Module/astari.3.zip"
