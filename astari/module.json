@@ -1,8 +1,9 @@
 {
    "manifest": "https://raw.githubusercontent.com/LightPhantom04/Azerith-Module/main/astari/module.json",
 "download": "https://github.com/LightPhantom04/Azerith-Module/releases/download/Module/astari.3.zip"
-
-  "id": "astari",
+}
+  {
+"id": "astari",
   "title": "Astari",
   "description": "Compendium content for the Astari campaign setting: characters, items and spells, and NPCs for the D&D 5e system.",
   "version": "1.0.0",
